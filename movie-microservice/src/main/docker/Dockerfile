@@ -1,4 +1,4 @@
-FROM java:8
+FROM 8-jdk
 VOLUME /tmp
 ADD movie-microservice-0.1.0.jar app.jar
 RUN bash -c 'touch /app.jar'
