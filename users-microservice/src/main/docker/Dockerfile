@@ -1,4 +1,4 @@
-FROM openjdk:8
+FROM docker.io/openjdk:8
 VOLUME /tmp
 ADD users-microservice-0.1.0.jar app.jar
 RUN bash -c 'touch /app.jar'
