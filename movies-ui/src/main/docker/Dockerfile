@@ -1,4 +1,4 @@
-FROM 8-jdk
+FROM docker.io/8-jdk
 VOLUME /tmp
 ADD movies-ui-0.1.0.jar app.jar
 RUN bash -c 'touch /app.jar'
